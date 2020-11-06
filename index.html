@@ -8,10 +8,13 @@
   </head>
   <body>
     <div id="root">
-      <!-- <input type="text" name="" value="" v-model="message"> -->
-      <h1 v-bind:class="myClass">{{message}}</h1>
-      <img v-bind:src="mySource" alt="">
-      <!-- <button @click="imgChange" type="button" name="button">Premi</button> -->
+      <div class="container">
+        <h1 v-bind:class="myClass">{{message}}</h1>
+        <img v-bind:src="mySource" alt="">
+        <button @click="imgChange" type="button" name="button">Premi</button>
+        <!-- <input type="text" name="" value="" v-model="message"> -->
+
+      </div>
 
     </div>
     <script src="vue.js" charset="utf-8"></script>
